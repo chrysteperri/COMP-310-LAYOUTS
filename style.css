@@ -144,6 +144,20 @@ Hero Page **************/
   align-items: flex-start;
   column-gap: 5rem;
 }
+.app__flow__2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 5rem;
+  padding-left: 10rem;
+}
+.app__flow__3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 5rem;
+}
 .instructions {
   font-family: 'Montserrat', sans-serif;
   margin-top: 16rem;
@@ -161,4 +175,36 @@ Hero Page **************/
   font-size: 1.5rem;
   font-weight: 500;
   opacity: 0.5;
+}
+
+/* ****************
+CTA  Page Styles**************/
+.cta__container {
+}
+.cta__content {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.final__cta__text {
+  color: #fff;
+}
+.cta__header {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.cta__body__text {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.cta__button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+.cta__playstore__button {
+}
+.cta__apptore__button {
 }
