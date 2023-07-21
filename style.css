@@ -65,6 +65,7 @@ Hero Page **************/
 }
 .hero__content {
   padding-top: 5rem;
+  padding-bottom: 100rem;
 }
 /* Style the hero content */
 .hero__text__content {
@@ -143,6 +144,7 @@ Hero Page **************/
   justify-content: center;
   align-items: flex-start;
   column-gap: 5rem;
+  flex-wrap: wrap;
 }
 .app__flow__2 {
   display: flex;
@@ -151,12 +153,14 @@ Hero Page **************/
   align-items: flex-start;
   column-gap: 5rem;
   padding-left: 10rem;
+  flex-wrap: wrap;
 }
 .app__flow__3 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   column-gap: 5rem;
+  flex-wrap: wrap;
 }
 .instructions {
   font-family: 'Montserrat', sans-serif;
@@ -180,7 +184,7 @@ Hero Page **************/
 /* ****************
 CTA  Page Styles**************/
 .cta__container {
-  height: 50vh;
+  height: 100%;
   background: linear-gradient(
       0deg,
       rgba(37, 43, 66, 0.4) 0%,
@@ -195,6 +199,7 @@ CTA  Page Styles**************/
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   padding-top: 5rem;
+  padding-bottom: 8rem;
 }
 .final__cta__text {
   color: #fff;
@@ -257,4 +262,24 @@ CTA  Page Styles**************/
   font-size: 1rem;
   opacity: 1;
   font-weight: bold;
+}
+
+/* *************MEDIA QUERIES ************* */
+@media (max-width: 1440px) {
+  .hero__app__showcase {
+    position: absolute;
+    bottom: -70%;
+    left: 25%;
+  }
+  .hero__app__image {
+    width: 90%;
+  }
+  .divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+    width: 100%;
+    padding-bottom: 2%;
+  }
 }
