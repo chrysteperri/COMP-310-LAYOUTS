@@ -17,27 +17,80 @@
 
   <body>
     <header>
-      <nav>
+      <nav class="nav__holder">
         <div class="Logo">
           <a href="index.html"
             ><img
               src="public/images/bella-olonje-logo-1111.png"
               alt="Logo for Bella Olonje"
+              class="logo__img"
             />
           </a>
         </div>
         <div class="Nav_links">
           <ul>
-            <li><a href="index.html"></a>Home</li>
-            <li><a href="product.html"></a>Product</li>
-            <li><a href="faq.html"></a>Faq</li>
-            <li><a href="contact.html"></a>Contact</li>
+            <a href="index.html"><li>Home</li></a>
+            <a href="index.html"><li>Product</li></a>
+            <a href="index.html"><li>Faq</li></a>
+            <a href="index.html"><li>Conatct</li></a>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <div></div>
+      <div class="hero__container">
+        <div class="hero__content">
+          <div class="hero__text__content">
+            <p class="hero__subheader">Food app</p>
+            <h1 class="hero__maintext">
+              Why Stay hungry when <br />
+              you can order from Bella Olonje
+            </h1>
+            <p class="hero__cta__text">
+              Download the bella olonje’s food app now on
+            </p>
+          </div>
+          <div class="hero__button__container">
+            <div>
+              <button class="playstore__button">Playstore</button>
+            </div>
+            <div>
+              <button class="appstore__button">App store</button>
+            </div>
+          </div>
+        </div>
+        <div class="hero__app__showcase">
+          <img
+            src="public/images/appshowcase.png"
+            alt="app__hero__showcase"
+            class="hero__app__image"
+          />
+        </div>
+      </div>
+      <!-- divider -->
+      <div class="divider">
+        <img src="public/images/hr.png" alt="divider" class="hero__curve__image"
+      </div>
     </main>
+    <!-- app flow -->
+    <div class="app__flow">
+      <h2 class="app__flow__hero__text">How the app works</h2>
+      <div class="app__flow__1">
+        <div class="flow__step__1">
+          <img src="public/images/step1.png" alt="step1" />
+        </div>
+        <div class="instructions">
+          <p class="step__instructions__header">Create an account</p>
+          <h2 class="instruction">
+            Create/login to an existing <br />
+            account to get started
+          </h2>
+          <p class="instruction__outcome">
+            An account is created with your email <br />
+            and a desired password
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

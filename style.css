@@ -5,22 +5,160 @@ body {
   margin: 0;
   text-decoration: none;
   list-style: none;
+  background-color: #fff;
 }
 /* nav css */
-nav {
+head {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Montserrat', sans-serif;
+}
+.logo {
+  display: flex;
+  align-self: center;
+}
+
+.nav__holder {
   display: flex;
   background-color: white;
-  justify-content: space-around;
-
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
 }
-.Nav_links{
-  margin: auto;
+
+.Nav_links {
+  margin-left: auto;
 }
 .Nav_links ul {
   display: flex;
   list-style: none;
-  column-gap: 6rem;
-  padding: 2rem;
-  ;
+  column-gap: 10rem;
+  padding-top: 1.5rem;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.Nav_links ul li:hover {
+  color: #fa4a0c;
+}
+.Nav_links ul a {
+  text-decoration: none;
+  color: black;
 }
 
+/* ****************
+Hero Page **************/
+
+/* Set background image for our hero */
+.hero__container {
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(23, 16, 16, 0.1) 0%,
+      rgba(23, 16, 16, 0.1) 100%
+    ),
+    url('public/images/herobackground.png'), lightgray 0% / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero__content {
+  padding-top: 5rem;
+}
+/* Style the hero content */
+.hero__text__content {
+  text-align: center;
+  color: #fff;
+}
+.hero__subheader {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+.hero__maintext {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.625rem;
+}
+.hero__cta__text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  opacity: 0.8;
+  padding-bottom: 2rem;
+}
+/* Hero button styles */
+.hero__button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+.playstore__button {
+  border: none;
+  border-radius: 30px;
+  background: #fa4a0c;
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+  color: #fff;
+  padding: 1rem 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.appstore__button {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background: transparent;
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+  color: #fff;
+  padding: 1rem 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Hero app showcase */
+.hero__app__showcase {
+  position: absolute;
+  bottom: -60%;
+  left: 30%;
+}
+
+/* Divider styles */
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+/* App flow styles */
+.app__flow__hero__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.75rem;
+  text-align: center;
+}
+.app__flow__1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 5rem;
+}
+.instructions {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 16rem;
+}
+.step__instructions__header {
+  color: #fa4a0c;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.instruction {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.instruction__outcome {
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 0.5;
+}
