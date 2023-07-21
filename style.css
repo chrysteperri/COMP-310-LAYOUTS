@@ -241,3 +241,20 @@ CTA  Page Styles**************/
 }
 
 /* *************FOOTER STYLES ************* */
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 0;
+}
+.footer__contact__links {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+.footer__copyright {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  opacity: 1;
+  font-weight: bold;
+}
