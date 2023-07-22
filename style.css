@@ -311,7 +311,7 @@ CTA  Page Styles**************/
     max-width: 1280px;
   }
   .hero__container {
-    height: 80vh;
+    height: 100vh;
   }
   .hero__maintext {
     font-size: 3.625rem;
