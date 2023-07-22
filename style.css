@@ -69,7 +69,6 @@ Hero Page **************/
 }
 .hero__content {
   padding-top: 5rem;
-  padding-bottom: 100rem;
 }
 /* Style the hero content */
 .hero__text__content {
@@ -329,6 +328,17 @@ CTA  Page Styles**************/
   .container {
     max-width: 1280px;
   }
+  .hero__container {
+    height: 60vh;
+  }
+  .hero__app__showcase {
+    position: absolute;
+    bottom: -70%;
+    left: 25%;
+  }
+  .app__flow__2 {
+    flex-wrap: nowrap;
+  }
 }
 
 /* xl */
@@ -336,12 +346,42 @@ CTA  Page Styles**************/
   .container {
     max-width: 1024px;
   }
+  .hero__app__showcase {
+    position: absolute;
+    top: 73%;
+    left: 25%;
+  }
+  .app__flow__1 {
+    flex-wrap: nowrap;
+  }
+  .instructions {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7rem;
+  }
+  .app__flow__3 {
+    flex-wrap: nowrap;
+  }
 }
 
 /* lg */
 @media (max-width: 1024px) {
   .container {
     max-width: 768px;
+  }
+  .hero__maintext {
+    font-size: 3.625rem;
+  }
+  .hero__app__showcase {
+    position: absolute;
+    top: 63%;
+    left: 15%;
+  }
+  .instructions {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3rem;
+  }
+  .app__flow__2 {
+    padding-left: 3rem;
   }
 }
 
