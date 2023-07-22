@@ -268,19 +268,6 @@ CTA  Page Styles**************/
 }
 
 /* *************MEDIA QUERIES ************* */
-@media (max-width: 1440px) {
-  .hero__app__showcase {
-    position: absolute;
-    bottom: -70%;
-    left: 25%;
-  }
-
-  .divider {
-    margin-top: 35%;
-    width: 100%;
-    padding-bottom: 2%;
-  }
-}
 
 /* thedesktop-firstpre-defined media queries: */
 
@@ -324,12 +311,20 @@ CTA  Page Styles**************/
     max-width: 1280px;
   }
   .hero__container {
-    height: 60vh;
+    height: 80vh;
+  }
+  .hero__maintext {
+    font-size: 3.625rem;
   }
   .hero__app__showcase {
     position: absolute;
-    bottom: -70%;
+    top: 60%;
     left: 25%;
+  }
+  .divider {
+    margin-top: 40%;
+    width: 100%;
+    padding-bottom: 2%;
   }
   .app__flow__2 {
     flex-wrap: nowrap;
@@ -343,8 +338,16 @@ CTA  Page Styles**************/
   }
   .hero__app__showcase {
     position: absolute;
-    top: 73%;
+    top: 63%;
     left: 25%;
+  }
+  .hero__app__image {
+    width: 90%;
+  }
+  .divider {
+    margin-top: 40%;
+    width: 100%;
+    padding-bottom: 2%;
   }
   .app__flow__1 {
     flex-wrap: nowrap;
@@ -363,13 +366,21 @@ CTA  Page Styles**************/
   .container {
     max-width: 768px;
   }
+  .hero__container {
+    height: 90vh;
+  }
   .hero__maintext {
     font-size: 3.625rem;
   }
   .hero__app__showcase {
     position: absolute;
-    top: 63%;
+    top: 67%;
     left: 15%;
+  }
+  .divider {
+    margin-top: 45%;
+    width: 100%;
+    padding-bottom: 2%;
   }
   .instructions {
     font-family: 'Montserrat', sans-serif;
