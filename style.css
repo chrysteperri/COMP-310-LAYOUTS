@@ -274,14 +274,9 @@ CTA  Page Styles**************/
     bottom: -70%;
     left: 25%;
   }
-  .hero__app__image {
-    width: 90%;
-  }
+
   .divider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40%;
+    margin-top: 35%;
     width: 100%;
     padding-bottom: 2%;
   }
