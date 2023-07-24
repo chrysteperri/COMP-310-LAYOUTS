@@ -130,7 +130,7 @@ Hero Page **************/
 @media (min-width: 1024px) {
   /* Set background image for our hero */
   .hero__container {
-    height: 90vh;
+    height: 45rem;
     width: 100%;
     background: linear-gradient(
         0deg,
@@ -294,7 +294,7 @@ Hero Page **************/
 @media (min-width: 1536px) {
   /* Set background image for our hero */
   .hero__container {
-    height: 100vh;
+    height: 53rem;
     width: 100%;
     background: linear-gradient(
         0deg,
