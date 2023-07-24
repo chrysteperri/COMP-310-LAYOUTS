@@ -117,88 +117,250 @@ img {
 /* ****************
 Hero Page **************/
 
-/* Set background image for our hero */
-.hero__container {
-  height: 80vh;
-  width: 100%;
-  background: linear-gradient(
-      0deg,
-      rgba(23, 16, 16, 0.1) 0%,
-      rgba(23, 16, 16, 0.1) 100%
-    ),
-    url('public/images/herobackground.png'), lightgray 0% / cover no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-.hero__content {
-  padding-top: 5rem;
-}
-/* Style the hero content */
-.hero__text__content {
-  text-align: center;
-  color: #fff;
-}
-.hero__subheader {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-}
-.hero__maintext {
-  font-family: 'Poppins', sans-serif;
-  font-size: 4.625rem;
-}
-.hero__cta__text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  opacity: 0.8;
-  padding-bottom: 2rem;
-}
-/* Hero button styles */
-.hero__button__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 2rem;
-}
-.playstore__button {
-  border: none;
-  border-radius: 30px;
-  background: #fa4a0c;
-  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
-  color: #fff;
-  padding: 1rem 4rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-.appstore__button {
-  border: 1px solid #fff;
-  border-radius: 30px;
-  background: transparent;
-  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
-  color: #fff;
-  padding: 1rem 4rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  /* Set background image for our hero */
+  .hero__container {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(23, 16, 16, 0.1) 0%,
+        rgba(23, 16, 16, 0.1) 100%
+      ),
+      url('public/images/herobackground.png'), lightgray 0% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .hero__content {
+    padding-top: 5rem;
+  }
+  /* Style the hero content */
+  .hero__text__content {
+    text-align: center;
+    color: #fff;
+  }
+  .hero__subheader {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+  }
+  .hero__maintext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.625rem;
+  }
+  .hero__cta__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    opacity: 0.8;
+    padding-bottom: 2rem;
+  }
+  /* Hero button styles */
+  .hero__button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
+  .playstore__button {
+    border: none;
+    border-radius: 30px;
+    background: #fa4a0c;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+    color: #fff;
+    padding: 1rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+  }
+  .appstore__button {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+    color: #fff;
+    padding: 1rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+  }
+
+  /* Hero app showcase */
+  .hero__app__showcase__image__holder {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -5rem;
+    margin-right: 5rem;
+  }
+  .app__flow__section {
+    margin-top: 30rem;
+  }
 }
 
-/* Hero app showcase */
-.hero__app__showcase {
-  position: absolute;
-  top: 62%;
-  left: 30%;
+/* xl */
+@media (min-width: 1280px) {
+  /* Set background image for our hero */
+  .hero__container {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(23, 16, 16, 0.1) 0%,
+        rgba(23, 16, 16, 0.1) 100%
+      ),
+      url('public/images/herobackground.png'), lightgray 0% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .hero__content {
+    padding-top: 5rem;
+  }
+  /* Style the hero content */
+  .hero__text__content {
+    text-align: center;
+    color: #fff;
+  }
+  .hero__subheader {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+  }
+  .hero__maintext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.625rem;
+  }
+  .hero__cta__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    opacity: 0.8;
+    padding-bottom: 2rem;
+  }
+  /* Hero button styles */
+  .hero__button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
+  .playstore__button {
+    border: none;
+    border-radius: 30px;
+    background: #fa4a0c;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+    color: #fff;
+    padding: 1rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+  }
+  .appstore__button {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+    color: #fff;
+    padding: 1rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+  }
+
+  /* Hero app showcase */
+  .hero__app__showcase__image__holder {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -5rem;
+    margin-right: 5rem;
+  }
+  .app__flow__section {
+    margin-top: 30rem;
+  }
 }
 
-/* Divider styles */
-.divider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30%;
-  width: 100%;
-  padding-bottom: 2%;
+/* 2xl */
+@media (min-width: 1536px) {
+  /* Set background image for our hero */
+  .hero__container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(23, 16, 16, 0.1) 0%,
+        rgba(23, 16, 16, 0.1) 100%
+      ),
+      url('public/images/herobackground.png'), lightgray 0% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .hero__content {
+    padding-top: 5rem;
+  }
+  /* Style the hero content */
+  .hero__text__content {
+    text-align: center;
+    color: #fff;
+  }
+  .hero__subheader {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+  }
+  .hero__maintext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.625rem;
+  }
+  .hero__cta__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    padding-bottom: 2rem;
+  }
+  /* Hero button styles */
+  .hero__button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
+  .playstore__button {
+    border: none;
+    border-radius: 30px;
+    background: #fa4a0c;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+    color: #fff;
+    padding: 1rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .appstore__button {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background: transparent;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+    color: #fff;
+    padding: 1rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .app__flow__section {
+    margin-top: 32rem;
+  }
 }
 
 /* App flow styles */
