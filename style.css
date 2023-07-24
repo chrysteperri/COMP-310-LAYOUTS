@@ -12,6 +12,10 @@ body {
   background-color: #fff;
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+  color: #252b42;
+}
 img {
   max-width: 100%;
 }
@@ -28,51 +32,85 @@ img {
 
 /* lg */
 @media (min-width: 1024px) {
+  .nav__holder {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; /* 175% */
+    letter-spacing: 0.0125rem;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  .nav__links {
+    display: flex;
+    align-items: center;
+    column-gap: 4rem;
+    margin-left: auto;
+    margin-right: 5rem;
+  }
+  .nav__links a:hover {
+    color: #fa4a0c;
+  }
 }
 
 /* xl */
 @media (min-width: 1280px) {
+  .nav__holder {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; /* 175% */
+    letter-spacing: 0.0125rem;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  .nav__links {
+    display: flex;
+    align-items: center;
+    column-gap: 4rem;
+    margin-left: auto;
+    margin-right: 5rem;
+  }
+  .nav__links a:hover {
+    color: #fa4a0c;
+  }
 }
 
 /* 2xl */
 @media (min-width: 1536px) {
-  head {
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  .logo {
-    display: flex;
-    align-self: center;
-  }
-
   .nav__holder {
-    display: flex;
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 10rem;
-  }
-
-  .Nav_links {
-    margin-left: auto;
-  }
-  .Nav_links ul {
-    display: flex;
     list-style: none;
-    column-gap: 10rem;
-    padding-top: 1.5rem;
+    display: flex;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
     font-weight: 600;
+    line-height: 1.75rem; /* 175% */
+    letter-spacing: 0.0125rem;
   }
-  .Nav_links ul li:hover {
+  .logo {
+    margin-right: auto;
+  }
+  .nav__links {
+    display: flex;
+    align-items: center;
+    column-gap: 4rem;
+    margin-left: auto;
+    margin-right: 5rem;
+  }
+  .nav__links a:hover {
     color: #fa4a0c;
-  }
-  .Nav_links ul a {
-    text-decoration: none;
-    color: black;
   }
 }
 
