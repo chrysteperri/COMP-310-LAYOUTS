@@ -42,55 +42,72 @@
     </header>
     <!-- ************ MAIN SECTION ************ -->
     <main>
-        <div class="Contact_Form_Card">
-            <form id="Contact_Form" action="/">
-                <h1 align="center">CONTACT ME</h1>
-                <div class="input-control">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name_field" name="Name" placeholder="Input your full name.">
-                </div>
-                <div class="input-control">
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email_field" name="Email_Address" placeholder="Input your email address.">
-                </div>
-                <div class="input-control">
-                    <label for="message">Message:</label>
-                    <textarea type="text" id="message_field" name="Message" placeholder="Type your message here.."
-                        cols="60" rows="8"></textarea>
-                </div>
-                <div class="Button_area">
-                    <button type="submit" id="button_field">SUBMIT</button>
-                </div>
-            </form>
-
-        </div>
+      <div class="Contact_Form_Card">
+        <form id="Contact_Form" action="/">
+          <h1 align="center">CONTACT ME</h1>
+          <div class="input-control">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name_field"
+              class="name__input__field"
+              name="Name"
+              placeholder="Input your full name."
+            />
+          </div>
+          <div class="input-control">
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              id="email_field"
+              class="email__input__field"
+              name="Email_Address"
+              placeholder="Input your email address."
+            />
+          </div>
+          <div class="input-control">
+            <label for="message">Message:</label>
+            <textarea
+              type="text"
+              id="message_field"
+              class="message__input__field"
+              name="Message"
+              placeholder="Type your message here.."
+              cols="30"
+              rows="4"
+            ></textarea>
+          </div>
+          <div class="Button_area">
+            <button type="submit" id="button_field">SUBMIT</button>
+          </div>
+        </form>
+      </div>
     </main>
-   <!-- FOOTER SCETION -->
-   <footer>
-    <div class="footer__container container">
-      <div class="footer__logo">
-        <img
-          src="public/images/logo.png"
-          alt="Logo for Chryste Perri"
-          class="footer__logo__img"
-        />
+    <!-- FOOTER SCETION -->
+    <footer>
+      <div class="footer__container container">
+        <div class="footer__logo">
+          <img
+            src="public/images/logo.png"
+            alt="Logo for Chryste Perri"
+            class="footer__logo__img"
+          />
+        </div>
+        <div class="footer__contact__links">
+          <a href="index.html"
+            ><img src="public/images/twitter.png" alt="twitter"
+          /></a>
+          <a href="index.html"
+            ><img src="public/images/facebook.png" alt=" facebook"
+          /></a>
+          <a href="index.html"
+            ><img src="public/images/instagram.png" alt=" instagram "
+          /></a>
+        </div>
+        <div class="footer__copyright">
+          <p>Copyright 2023 ChrystePerri.com</p>
+        </div>
       </div>
-      <div class="footer__contact__links">
-        <a href="index.html"
-          ><img src="public/images/twitter.png" alt="twitter"
-        /></a>
-        <a href="index.html"
-          ><img src="public/images/facebook.png" alt=" facebook"
-        /></a>
-        <a href="index.html"
-          ><img src="public/images/instagram.png" alt=" instagram "
-        /></a>
-      </div>
-      <div class="footer__copyright">
-        <p>Copyright 2023 ChrystePerri.com</p>
-      </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
