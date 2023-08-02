@@ -1,35 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-        <nav>
-            <label class="logo">Chryste Perri</label>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  <body>
+    <header class="container">
+      <nav>
+        <ul class="nav__holder">
+          <li class="logo">
+            <a href="index.html"
+              ><img
+                src="public/images/logo.png"
+                alt="Logo for Chryste Perri"
+                class="logo__img"
+              />
+            </a>
+          </li>
+          <div class="nav__links">
+            <a href="index.html"><li>Home</li></a>
+            <a href="product.html"><li>Product</li></a>
+            <a href="faq.html"><li>Faq</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+          </div>
+        </ul>
+      </nav>
     </header>
+    <!-- ************ MAIN SECTION ************ -->
     <main>
-        <div class="About">
-            <h1> About:</h1>
-        </div>
+        
     </main>
-    <footer>
-        <p>COPYRIGHT &copy;
-            <script>document.write(new Date().getFullYear());</script> CHRYSTE PERRI
-        </p>
-    </footer>
+   <!-- FOOTER SCETION -->
+   <footer>
+    <div class="footer__container container">
+      <div class="footer__logo">
+        <img
+          src="public/images/logo.png"
+          alt="Logo for Chryste Perri"
+          class="footer__logo__img"
+        />
+      </div>
+      <div class="footer__contact__links">
+        <a href="index.html"
+          ><img src="public/images/twitter.png" alt="twitter"
+        /></a>
+        <a href="index.html"
+          ><img src="public/images/facebook.png" alt=" facebook"
+        /></a>
+        <a href="index.html"
+          ><img src="public/images/instagram.png" alt=" instagram "
+        /></a>
+      </div>
+      <div class="footer__copyright">
+        <p>Copyright 2023 ChrystePerri.com</p>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
