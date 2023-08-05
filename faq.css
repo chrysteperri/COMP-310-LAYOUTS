@@ -1,0 +1,34 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.FAQ_Container{
+    /* display: flex; */
+    justify-content: space-around;
+    background-color: #FFff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    /* height: 50rem; */
+    border-radius: 2rem;
+  }
+  .FAQ_Container h1 { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.125rem;
+  }
+  .Questions{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+  .Answers{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+  }
